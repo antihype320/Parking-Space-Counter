@@ -3,7 +3,7 @@
 In this project, we create a Parking Space Counter using basic image processing techniques with OpenCV.
 The system detects how many parking spots are occupied and how many are free in a given parking lot video.
 
-#Demo
+# Demo
 
 ![image](https://github.com/user-attachments/assets/c659ff5b-ad67-4d6c-b7d6-28b64a87d516)
 
