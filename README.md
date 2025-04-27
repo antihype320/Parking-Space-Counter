@@ -11,19 +11,18 @@ The system detects how many parking spots are occupied and how many are free in 
 ### Video Input: A prerecorded video (carPark.mp4) of a parking lot.
 ### Parking Spot Detection: Manually mark parking spots on a static image (carParkImg.png) and save the coordinates.
 ### Occupancy Detection:
-  -Convert frames to grayscale.
-  -Apply Gaussian Blur and Adaptive Thresholding.
-  -Dilate the image to enhance parking space features.
-  -Count non-zero pixels in each parking spot to determine if it's occupied or free.
+  - Convert frames to grayscale.
+  - Apply Gaussian Blur and Adaptive Thresholding.
+  - Dilate the image to enhance parking space features.
+  - Count non-zero pixels in each parking spot to determine if it's occupied or free.
 ### Output:
+  - Green rectangle => Free space.
+  - Red rectangle => Occupied space.
+  - Live counter showing available spots.
 
-  -Green rectangle => Free space.
-  -Red rectangle => Occupied space.
-  -Live counter showing available spots.
-
-**Technologies Used**
--Python 3
--OpenCV
--cvzone (for easier text and rectangle drawing)
--Pickle (for saving/loading parking spot positions)
--NumPy
+# Technologies Used
+- Python 3
+- OpenCV
+- cvzone (for easier text and rectangle drawing)
+- Pickle (for saving/loading parking spot positions)
+- NumPy
